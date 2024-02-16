@@ -17,6 +17,8 @@ export function FaucetClient({
     transactions: any[];
   };
 }) {
+  faucet = faucet ?? { balance: 0, address: "", transactions: [] };
+
   const form = useForm({
     resolver: zodResolver(FaucetSchema),
   });

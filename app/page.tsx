@@ -1,4 +1,4 @@
-import { FaucetClient } from "./_components";
+import { FaucetClient } from "@/components";
 
 export default async function Home() {
   const faucet = await fetch(`${process.env.NEXT_PUBLIC_URL}/api/balance`).then(
