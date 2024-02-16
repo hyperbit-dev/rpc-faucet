@@ -12,7 +12,6 @@ export function FaucetClient({
   };
 }) {
   faucet = faucet ?? { balance: 0, address: "", transactions: [] };
-  console.log("faucet", faucet);
   return (
     <div className="gap-2 p-8 mx-auto md:h-full md:items-center md:justify-center md:flex-row md:flex max-w-7xl">
       <div className="md:w-1/2">
