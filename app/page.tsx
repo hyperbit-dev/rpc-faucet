@@ -7,7 +7,7 @@ export default async function Home() {
     account: "",
   });
   const transactions = await rpcClient.request("listtransactions", {
-    count: 10,
+    count: 5,
   });
 
   return (
