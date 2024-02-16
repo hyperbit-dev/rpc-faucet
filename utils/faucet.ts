@@ -4,8 +4,7 @@ import getRedisFaucet from "./redis";
 async function findInCache(ipAddress: string) {
   const faucetRepository = await getRedisFaucet();
   const faucetId = process.env.REDIS_FAUCET_ID!;
-  console.log('faucetId', faucetId)
-  console.log('ipAddress', ipAddress)
+
   return faucetRepository
     .search()
     .where("ipAddress")

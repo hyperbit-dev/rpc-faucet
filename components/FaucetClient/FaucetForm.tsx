@@ -17,8 +17,6 @@ export function FaucetForm({
     transactions: any[];
   };
 }) {
-  faucet = faucet ?? { balance: 0, address: "", transactions: [] };
-  console.log('faucet', faucet)
   const form = useForm({
     resolver: zodResolver(FaucetSchema),
   });
@@ -146,7 +144,7 @@ export function FaucetForm({
                 )}
               </button>
             </div>
-
+            <div className="text-xs">Refill Address: {faucet.address}</div>
             {form.formState?.errors?.address?.message ? (
               <div className="text-sm text-red-500">
                 {form.formState.errors.address.message as string}
