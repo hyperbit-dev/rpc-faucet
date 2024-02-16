@@ -1,0 +1,36 @@
+<svg preserveAspectRatio="xMidYMid meet" data-bbox="817.8 771.8 2460.4 2296.4" viewBox="817.8 771.8 2460.4 2296.4"
+    xmlns="http://www.w3.org/2000/svg" data-type="color" role="presentation" aria-hidden="true" aria-label="">
+    <g>
+        <path fill="#f2cdad" d="M1966 935.8h-164.1v328.1H2130V935.8h-164z" data-color="1"></path>
+        <path fill="#f2cdad" d="M981.8 1099.8v164.1h164V935.8h-164v164z" data-color="1"></path>
+        <path fill="#5b5f6e" d="M1145.8 1263.9v164h164.1v-328.1h-164.1v164.1z" data-color="2"></path>
+        <path fill="#5b5f6e" d="M1801.9 1099.8v164h-164v-164h164z" data-color="2"></path>
+        <path fill="#5b5f6e" d="M1637.9 1263.9v164h-164v-164h164z" data-color="2"></path>
+        <path fill="#342606" d="M1145.8 1756v164h164.1v-328.1h-164.1V1756z" data-color="3"></path>
+        <path fill="#342606" d="M1637.9 1591.9V1920h164v-328.1h-164z" data-color="3"></path>
+        <path fill="#ff987f" d="M1473.9 1920v164h-164v-164h164z" data-color="4"></path>
+        <path fill="#bc8312" d="M2130 1756v-492.1h-492.1v164h-164V1756h164v-164.1h164V1920H2130v-164z" data-color="5">
+        </path>
+        <path fill="#bc8312" d="M981.8 1427.9v164h164v-328h-164v164z" data-color="5"></path>
+        <path fill="#bc8312" d="M2950.2 1756h-164.1v328h-164v164.1h328.1V1920h164v-164h-164z" data-color="5"></path>
+        <path fill="#bc8312" d="M2622.1 2248.1v164h-164v-164h164z" data-color="5"></path>
+        <path fill="#bc8312" d="M2294 2084h-164v164.1h328.1V2084H2294z" data-color="5"></path>
+        <path fill="#020000" d="M1309.8 935.8v164h-164v-164h164z" data-color="6"></path>
+        <path fill="#020000" d="M1473.9 1263.9h164v-164.1h-328v164.1h164z" data-color="6"></path>
+        <path fill="#020000" d="M1801.9 935.8v164h-164v-164h164z" data-color="6"></path>
+        <path fill="#020000" d="M2130 935.8V2084h328.1v-164H2294V771.8h-492.1v164H2130z" data-color="6"></path>
+        <path fill="#020000" d="M981.8 1756V935.8h164v-164h-328V2084h164v-328z" data-color="6"></path>
+        <path fill="#020000" d="M1145.8 2084v164h-164v-164h164z" data-color="6"></path>
+        <path fill="#020000" d="M2130 2084v164h-164v-164h164z" data-color="6"></path>
+        <path fill="#020000" d="M2622.1 2084v164h-164v-164h164z" data-color="6"></path>
+        <path fill="#020000" d="M2786.1 1920v-164h-164v328h164v-164z" data-color="6"></path>
+        <path fill="#020000" d="M3114.2 1756v-164.1h-328.1V1756h328.1z" data-color="6"></path>
+        <path fill="#020000" d="M3114.2 1756v164h-164v328.1h164V2084h164v-328h-164z" data-color="6"></path>
+        <path fill="#020000"
+            d="M2622.1 2248.1v656.1h-164v-328.1H2294v164.1h-328v-164.1h-164.1v328.1h-164v-328.1h-164v328.1h-164v-656.1h-164.1v820.1H1966v-164h164v164h656.1v-656.1h164.1v-164h-328.1z"
+            data-color="6"></path>
+        <path fill="#feffff"
+            d="M2458.1 2412.1v-164H1966V2084h164v-164h-492.1v-164h-164v-492.1h-164v164h-164.1v164h164.1V1920h164v164h-164v-164h-164.1v-328.1h-164V2084h164v164.1h164.1v656.1h164v-328.1h164v328.1h164v-328.1H1966v164.1h328v-164.1h164.1v328.1h164v-492.1h-164z"
+            data-color="7"></path>
+    </g>
+</svg>
