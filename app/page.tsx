@@ -1,46 +1,27 @@
+"use client";
+import { useQuery } from "@tanstack/react-query";
 import { FaucetClient } from "@/components";
-import rpcClient from "@/utils/rpc";
 
-export default async function Home() {
-  const balance = await rpcClient.request(
-    "getbalance",
-    {},
-    {
-      headers: {
-        "Cache-Control": "no-cache",
-      },
-    }
-  );
-  const address = await rpcClient.request(
-    "getaccountaddress",
-    {
-      account: "",
-    },
-    {
-      headers: {
-        "Cache-Control": "no-cache",
-      },
-    }
-  );
-  const transactions = await rpcClient.request(
-    "listtransactions",
-    {
-      count: 5,
-    },
-    {
-      headers: {
-        "Cache-Control": "no-cache",
-      },
-    }
-  );
+export default function Home() {
+  const getFaucetQuery = useQuery({
+    queryKey: ["faucet"],
+    queryFn: () =>
+      fetch(`/api/balance`, {
+        cache: "no-store",
+        headers: {
+          "Cache-Control": "no-cache",
+          Pragma: "no-cache",
+          Expires: "0",
+        },
+      }).then((x) => x.json()),
+      refetchInterval: 1000 * 60,
+  });
 
   return (
     <FaucetClient
-      faucet={{
-        balance,
-        address,
-        transactions,
-      }}
+      balance={getFaucetQuery.data?.balance}
+      address={getFaucetQuery.data?.address}
+      transactions={getFaucetQuery.data?.transactions}
     />
   );
 }
