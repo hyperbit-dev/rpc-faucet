@@ -11,6 +11,8 @@
   "dependencies": {
     "@hookform/resolvers": "^3.3.4",
     "@hyperbitjs/rpc": "^0.3.0",
+    "@tanstack/react-query": "^5.21.4",
+    "@tanstack/react-query-next-experimental": "^5.21.4",
     "next": "14.1.0",
     "react": "^18",
     "react-dom": "^18",

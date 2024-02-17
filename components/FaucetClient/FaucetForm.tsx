@@ -5,6 +5,7 @@ import { useId, useRef, useState } from "react";
 import ReCAPTCHA from "react-google-recaptcha";
 import { FormProvider, useForm } from "react-hook-form";
 import { FaucetSchema } from "./schema";
+import { QueryClient } from "@tanstack/react-query";
 
 const PAYOUT_INTERVAL = process.env.PAYOUT_INTERVAL;
 
@@ -49,6 +50,8 @@ export function FaucetForm({
       if (response.ok) {
         const result = await response.json();
         setTransactions((prev) => [...prev, result]);
+        const queryClient = new QueryClient();
+        queryClient.invalidateQueries({ queryKey: ["faucet"] });
       } else {
         const error = await response.json();
         setErrorResponse((error as Error).message);

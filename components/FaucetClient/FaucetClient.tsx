@@ -3,22 +3,27 @@ import { FaucetForm } from "./FaucetForm";
 import { FaucetTransactions } from "./FaucetTransactions";
 
 export function FaucetClient({
-  faucet,
+  balance,
+  address,
+  transactions = [],
 }: {
-  faucet: {
-    balance: number;
-    address: string;
-    transactions: any[];
-  };
+  balance: number;
+  address: string;
+  transactions: any[];
 }) {
-  faucet = faucet ?? { balance: 0, address: "", transactions: [] };
   return (
     <div className="gap-2 p-8 mx-auto md:h-full md:items-center md:justify-center md:flex-row md:flex max-w-7xl">
       <div className="md:w-1/2">
-        <FaucetForm faucet={faucet} />
+        <FaucetForm
+          faucet={{
+            balance,
+            address,
+            transactions,
+          }}
+        />
       </div>
       <div className="md:w-1/2">
-        <FaucetTransactions transactions={faucet.transactions} />
+        <FaucetTransactions transactions={transactions} />
       </div>
     </div>
   );
