@@ -36,7 +36,7 @@ export function FaucetForm({
   const onReCAPTCHAChange = async (captcha: any) => {
     try {
       setErrorResponse(undefined);
-      const response = await fetch(`${process.env.NEXT_PUBLIC_URL}/api/send`, {
+      const response = await fetch("/api/send", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
