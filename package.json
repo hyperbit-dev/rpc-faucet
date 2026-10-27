@@ -9,7 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@hookform/resolvers": "^3.3.4",
+    "@hookform/resolvers": "^6.0.0",
     "@hyperbitjs/rpc": "^0.3.0",
     "@tanstack/react-query": "^5.21.4",
     "@tanstack/react-query-next-experimental": "^5.21.4",
