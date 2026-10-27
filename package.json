@@ -13,7 +13,7 @@
     "@hyperbitjs/rpc": "^0.3.0",
     "@tanstack/react-query": "^5.21.4",
     "@tanstack/react-query-next-experimental": "^5.21.4",
-    "next": "14.1.0",
+    "next": "16.4.3",
     "react": "^18",
     "react-dom": "^18",
     "react-google-recaptcha": "^3.1.0",
