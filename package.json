@@ -14,7 +14,7 @@
     "@tanstack/react-query": "^5.21.4",
     "@tanstack/react-query-next-experimental": "^5.21.4",
     "next": "14.1.0",
-    "react": "^18",
+    "react": "^19",
     "react-dom": "^18",
     "react-google-recaptcha": "^3.1.0",
     "react-hook-form": "^7.50.1",
@@ -25,7 +25,7 @@
   },
   "devDependencies": {
     "@types/node": "^20",
-    "@types/react": "^18",
+    "@types/react": "^19",
     "@types/react-dom": "^18",
     "@types/react-google-recaptcha": "^2.1.9",
     "@types/uuid": "^9.0.8",
