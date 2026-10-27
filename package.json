@@ -17,7 +17,7 @@
     "react": "^18",
     "react-dom": "^18",
     "react-google-recaptcha": "^3.1.0",
-    "react-hook-form": "^7.50.1",
+    "react-hook-form": "^7.91.0",
     "redis": "^4.6.13",
     "redis-om": "^0.4.3",
     "uuid": "^9.0.1",
